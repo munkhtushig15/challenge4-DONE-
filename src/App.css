@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,10 +10,9 @@
     flex-direction: column;
     align-items: center;
     background: #fc00ff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
+    /* background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #00dbde, #fc00ff); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* }
 .TestimonialsContainer {
     width: 300px;
     height: fit-content;
@@ -43,10 +42,10 @@
     display: flex;
     align-items: center;
     gap: 10px;
-}
+} */
 
 /* Hot test style */
-.hotTestContainer {
+/* .hotTestContainer {
     width: 400px;
     height: fit-content;
     display: flex;
@@ -88,9 +87,43 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+} */ 
+
+
+/* date 1025 =>=.=.=..==.=. */
+
+* {
+    margin: 0;
+    padding: 0;
 }
-
-
-
+body {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(./images/brooke-cagle-cb4Dv50LN1Y-unsplash\ 1.jpg);
+}
+.headerContainer {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    /* padding: 0 2% 0 2% ; */
+}
+.logo {
+    width: 85px;
+    height: 23px;
+    /* background-image: url(./images/team..png); */
+}
+.rightSide {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.color {
+    color: #fff;
+}
 
 
