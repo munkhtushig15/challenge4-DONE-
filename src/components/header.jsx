@@ -8,15 +8,15 @@ const Header = () => {
             <div className="headerContainer">
                 <img src={require('../images/team.png')} />
                 <div className="rightSide">
-                    <Link className="color" to="/home">Products</Link>
-                    <br />
-                    <Link className="color" to="/login">Services</Link>
-                    <br />
-                    <Link className="color" to="/signup">Contact</Link>
-                    <br />
-                    <Link className="color" to="/signup">Log in</Link>
+                    <Link className="color" to="/products">Products</Link>
+                    {/* <br /> */}
+                    <Link className="color" to="/services">Services</Link>
+                    {/* <br /> */}
+                    <Link className="color" to="/contact">Contact</Link>
+                    {/* <br /> */}
+                    <Link className="color" to="/login">Log in</Link>
                     <p className="">
-                        <Link className="color" to="/signup">Get Access</Link>
+                        <Link className="spclOne" to="/getAccess">Get Access</Link>
                     </p>
                 </div>
                 

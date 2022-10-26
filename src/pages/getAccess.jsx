@@ -1,11 +1,10 @@
 import { useLocation} from "react-router-dom";
 // import { useParams } from "react-router-dom";
-
 import '../App.css';
 
-const Login = () => {
+const GetAccess = () => {
     const location = useLocation();
-    return <div className="pos">Login page location {location.pathname}</div>
+    return <div className="pos">GetAccess page location {location.pathname}</div>
 }
 
-export default Login;
+export default GetAccess;
