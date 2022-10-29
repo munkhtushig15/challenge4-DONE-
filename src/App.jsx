@@ -39,19 +39,22 @@ import SignUp from './pages/signUp';
 import Header from './components/header';
 import Services from './pages/services';
 import GetAccess from './pages/getAccess';
+import Main from './components/main';
 
 const App = () => {
   return (
-    <BrowserRouter>
+      <BrowserRouter>
       <Header />
-      <Routes>
-        <Route path="/products" element={<Home/>}/>
-        <Route path="/services" element={<Services/>}/>
-        <Route path="/contact" element={<SignUp/>}/>
-        <Route path="/login" element={<Login/>}/>
-        <Route path="/getAccess" element={<GetAccess/>}/>
-      </Routes>
+        <Routes>
+          <Route path="/products" element={<Home/>}/>
+          <Route path="/services" element={<Services/>}/>
+          <Route path="/contact" element={<SignUp/>}/>
+          <Route path="/login" element={<Login/>}/>
+          <Route path="/getAccess" element={<GetAccess/>}/>
+        </Routes>
+        <Main />
     </BrowserRouter>
+    
     
   );
 }

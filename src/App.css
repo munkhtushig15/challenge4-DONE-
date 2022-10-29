@@ -97,8 +97,14 @@
     padding: 0;
 }
 body {
-    background-size: 100%;
     background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(./images/brooke-cagle-cb4Dv50LN1Y-unsplash\ 1.jpg);
+}
+.mainBg {
+    height: 100vh;
+    width: 100vw;
+    background-size: 100%;
     background-image: url(./images/brooke-cagle-cb4Dv50LN1Y-unsplash\ 1.jpg);
 }
 .headerContainer {
@@ -122,13 +128,13 @@ body {
     justify-content: space-between;
 }
 .color {
-    font-size: 20px;
+    font-size: 15px;
     color: #fff;
     text-decoration: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid gray;
 }
 .spclOne {
-    font-size: 25px;
+    font-size: 15px;
     color: gray;
     text-decoration: none;
     border: 1px solid gray;
@@ -143,4 +149,51 @@ body {
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.mainContainer {
+    width: 500px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    gap: 40px;
+}
+.mainColor {
+    color: #fff;
+}
+.mainTitle {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
+}
+.mainText {
+    font-size: 18px;
 
+}
+.srchContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+#srchInpt {
+    width: 300px;
+    height: 56px;
+    padding-left: 16px;
+    border: 0;
+    border-radius: 4px;
+
+}
+.mainBtn {
+    width: 163px;
+    height: 56px;
+    background: #0BBEF2;
+    outline: none;
+    border: 0;
+    color: #fff;
+    border-radius: 4px;
+}
